@@ -1,5 +1,5 @@
-ARG  IMAGE_TAG =lts-slim
-FROM jenkins/jenkins:$IMAGE_TAG
+#ARG  IMAGE_TAG =lts-slim
+FROM jenkins/jenkins:lts-slim
 
 USER root
 ######### Install docker client
